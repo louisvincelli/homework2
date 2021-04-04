@@ -1,0 +1,205 @@
+.header {
+    padding: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: midnightblue;
+    color: aliceblue;
+    text-decoration: none;
+    /*flex: 0 0 0;*/
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 40px;
+}
+
+.header div {
+    float: right;
+    font-size: 20px;
+    margin-right: 45px;
+    margin-top: 30px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a {
+    color: aliceblue;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.portfolio {
+    height: 300px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url("portfolio-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio h2 {
+    padding: 10px;
+    float: right;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    background-color: slategray;
+    border: 5px solid black;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+aside {
+    margin-right: 60px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 35px;
+    float: left;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: flex-start;
+}
+
+aside h3 {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 5px solid midnightblue;
+}
+
+aside h4 {
+    padding: 10px;
+    padding-bottom: 642px;
+    border-right: 5px solid midnightblue;
+}
+
+aside h5 {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 5px solid midnightblue;
+}
+
+#about-me {
+    color: black;
+}
+
+#work {
+    color: black;
+}
+
+#contact-me {
+    color: black;
+}
+
+.about-me-info {
+    font-size: 20px;
+    flex: 4;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.about-me-info p {
+    font-size: 20px;
+    flex: 4;
+}
+
+.work-info {
+    flex: 4;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.work-card {
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    flex: 0 0 300px;
+}
+
+.work-card img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.work-title {
+    font-size: 25px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 40%;
+    height: 25%;
+    position: relative;
+    bottom: 100px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+.work-title h6 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.work-title p {
+    font-size: 10px;
+    text-align: left;
+}
+
+.contact-me-info{
+    font-size: 20px;
+    flex: 4;
+    display: flex;
+    padding: 10px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.contact-me-info div {
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: steelblue;
+}
+
+.contact-me-info div ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.contact-me-info div ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: underline;
+}
+
